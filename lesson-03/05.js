@@ -18,6 +18,7 @@ const users2 = [
         address: '789 Oak St'
     },
 ];
+console.log(users2)
 
 const newObj = {
     id: 4,
@@ -25,6 +26,8 @@ const newObj = {
     surName: 'Susanin',
     address: 'Unknown'
 }
+console.log(newObj)
 
 console.log(users2.push(newObj))
 console.log(users2)
+
